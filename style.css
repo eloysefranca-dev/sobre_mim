@@ -39,7 +39,8 @@ header h1{
     border: 1px solid color(srgb rgb(1, 132, 192) rgb(22, 52, 223) blue);
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 3px 4px 10px color(srgb rgb(1, 4, 163) rgb(28, 3, 167) blue);
+    box-shadow: 5px 7px 50px color(srgb rgb(1, 4, 163) rgb(28, 3, 167) blue);
+    margin-bottom: 20px;
 }
 
 .card h2 {
@@ -51,4 +52,45 @@ header h1{
     flex-direction: row;
     align-items: center;
     gap: 20px;
+}
+.botao {
+display: inline-block;
+margin-top: 10px;
+background-color: beige;
+padding: 8px;
+color: rgb(7, 105, 105);
+border-radius: 10px;
+box-shadow: 4px 4px 10px color(srgb rgb(9, 133, 235) rgb(12, 227, 255) blue);
+}
+
+ul,ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+}
+
+input , textarea {
+    width: 400px;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.botao_formulario {
+    margin-top: 20px;
+    width: 400px;
+    padding: 4px;
+    background-color: rgb(231, 237, 238);
+    color: black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px color(srgb rgb(120, 219, 236) rgb(13, 219, 219) blue);
 }
